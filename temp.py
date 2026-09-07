@@ -29,7 +29,7 @@ if os.path.exists(font_path):
     plt.rcParams['font.family'] = my_font.get_name()
 else:
     plt.rcParams['font.sans-serif'] = ['Microsoft JhengHei', 'SimHei', 'Arial Unicode MS']
-    my_font = fm.FontProperties()t = fm.FontProperties(family='sans-serif')
+   my_font = fm.FontProperties()
 plt.rcParams['axes.unicode_minus'] = False
 
 # 四個觀測地點設定（中英並列名稱與專屬顏色）
